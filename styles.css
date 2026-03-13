@@ -1,0 +1,17 @@
+body {
+    background-image: url("./assets/output.gif");
+    background-size: 100%;
+    background-color: palegreen;
+    color: whitesmoke;
+    font-family: "JetBrains Mono";
+}
+
+main {
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+header {
+    border: 2px solid red;
+    margin-bottom: 4%;
+}
