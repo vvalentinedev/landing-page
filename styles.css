@@ -1,9 +1,10 @@
 body {
-    background-image: url("./assets/output3.gif");
-    background-size: 100%;
-    background-color: rgb(12,12,12);
+    /* Credits to https://www.shecodes.io/gradients/22 for the gradient*/
+    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%); 
+    background-color: rgb(99, 86, 216);
     background-attachment: fixed;
-
+    min-height: 100vh;
+    margin: 0;
     color: whitesmoke;
     font-family: "JetBrains Mono", monospace;
 }
@@ -14,10 +15,6 @@ main {
 }
 
 header {
-    /*background: rgba(39, 39, 39, 0.1);
-    opacity: 0.7;
-    backdrop-filter: blur(50px);
-    border-radius: 25px;*/
     background: linear-gradient(
         135deg,
         rgba(46, 46, 46, 0.8),
@@ -31,13 +28,17 @@ header {
     top: 10px;
 }
 
-li img, p {
+li img {
     margin: 0px 2px 0px 10px;
     height: 40px;
 }
 
+header p {
+    margin: 0px 2px 0px 10px;
+}
+
 main article{
-    padding-bottom: 10%;
+    padding-bottom: 4%;
 }
 
 main p {
@@ -45,13 +46,31 @@ main p {
 }
 
 article p {
-    color: rgb(192, 192, 192);
-}
-
-span {
-    background-color: rgba(136, 136, 136, 0.2);
+    color: rgb(53, 53, 53);
 }
 
 iframe {
     width: 50%;
+}
+
+@media (max-width: 768px) {
+    main {
+        font-size: 18px;
+        margin: 0 5%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    header div {
+        justify-content: center !important;
+        padding-right: 0 !important;
+    }
+
+    ul {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
