@@ -54,6 +54,10 @@ iframe {
 }
 
 @media (max-width: 768px) {
+    body {
+        color: black;
+    }
+
     main {
         font-size: 18px;
         margin: 0 5%;
