@@ -2,6 +2,8 @@ body {
     background-image: url("./assets/output.gif");
     background-size: 100%;
     background-color: rgb(12,12,12);
+    background-attachment: fixed;
+
     color: whitesmoke;
     font-family: "JetBrains Mono", monospace;
 }
@@ -25,11 +27,17 @@ header {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin: 2px;
+    position: sticky;
+    top: 10px;
 }
 
 li img, p {
     margin: 0px 2px 0px 10px;
     height: 40px;
+}
+
+main article{
+    padding-bottom: 10%;
 }
 
 main p {
