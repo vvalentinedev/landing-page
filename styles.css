@@ -45,7 +45,7 @@ main p {
     margin-top: -20px;
 }
 
-article p {
+article p, a {
     color: rgb(53, 53, 53);
 }
 
