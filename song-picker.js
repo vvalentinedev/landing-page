@@ -24,7 +24,8 @@ const trackURLs = [
     '4UI2AbJT7LOyEwNzsfKv7n', '0DP6bKaC72kf3mO3EuAYBO', '3HfEgAaf0koxBpBB8NvGda', 
     '3jjsRKEsF42ccXf8kWR3nu', '0dcu28YT8cXZH7JTIraszp', '0R8P9KfGJCDULmlEoBagcO',
     '5C54HfgwmX7Er7FBDhdz1E', '2ZwToUy7ZKvBBN2ik7kK0p', '5Zk0IqQrbxjFQyxKHaAcqO', 
-    '54CNkUBOgVZ5M5y9eL8xhg'
+    '54CNkUBOgVZ5M5y9eL8xhg', '7xI45uLWPt5U7z1M8p7ZvK', '287s8n6XNYnQHIRuZjYRhS',
+    '26kfheN3SyAwXajPXUXU09'
 ];
 
 function getRandomTrack() {
