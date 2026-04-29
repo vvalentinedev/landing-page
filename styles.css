@@ -64,7 +64,7 @@ footer {
 }
 
 footer a {
-    font-size: 1vw;
+    font-size: calc(12px + 0.5vw);
     margin: 1%;
     color: whitesmoke;
 }
