@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    margin: 0% 2% 0% 4%;
+    margin: 0% 10% 0% 4%;
     font-size: 24px;
 }
 
@@ -52,6 +52,10 @@ main article{
 
 main p {
     margin-top: -20px;
+}
+
+article {
+    text-align: justify;
 }
 
 article p, a {
