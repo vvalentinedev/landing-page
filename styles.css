@@ -91,6 +91,10 @@ footer a {
     border-radius: 12px;
 }
 
+#spotifyPlayer:hover {
+    filter: brightness(0.9);
+}
+
 .projectCard {
     display: inline-flex;
     margin-top: 2%;
