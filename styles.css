@@ -47,7 +47,7 @@ header p {
 }
 
 main article{
-    padding-bottom: 4%;
+    padding-bottom: 1%;
 }
 
 main p {
@@ -89,6 +89,48 @@ footer a {
     overflow: hidden;
     margin-top: 20px;
     border-radius: 12px;
+}
+
+.projectCard {
+    display: inline-flex;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: rgba(201, 201, 201, 0.5);
+    height: 20vh;
+    min-height: 200px;
+    width: 20vw;
+    min-width: 460px;
+    overflow: hidden;   
+}
+
+.projectCard img {
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.projectCard:hover {
+    transform: scale(1.05);
+    background-color: rgba(201, 201, 201, 0.842);
+}
+
+.cardInfo {
+    flex: 1;
+    padding: 5px;
+    margin-top: -6%;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    scrollbar-width: none;
+}
+
+.cardInfo p {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.cardInfo ::-webkit-scrollbar {
+    display: none;
 }
 
 @media (max-width: 768px) {

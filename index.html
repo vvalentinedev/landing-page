@@ -16,6 +16,11 @@
     2.- Add Current Projects section
 -->
 <body>
+    <!-- 
+        TODO: Issue with background gradient and h1 text when window size is half a screen
+        1. Complete active project cards and add link to each repo
+        2. Add footer to page's source code
+    -->
     <header>
         <div style="display:flex; justify-content: flex-end; padding-right: 1%; align-items: center;">
             <ul style="display: flex; list-style-type: none;"> 
@@ -53,7 +58,22 @@
             <div id="spotifyPlayer"></div>
             <script src="song-picker.js"></script>
             <a href="https://open.spotify.com/playlist/5syhrCXsytNOl7WWBlbvh2" target="_blank" style="font-size: 15px;">Check the full playlist</a>
-            </article>
+        </article>
+        <!-- Temp margin fix so that footer isnt too close to Current Projects section -->
+        <article style="margin-bottom: 5%;">
+            <h1>Current Projects</h1>
+
+            <a href="https://github.com/vvalentinedev/stock-stalker" target="_blank" style="color: inherit;">
+                <div class="projectCard">
+                <img src="assets/stocks.jpg">
+                <div class="cardInfo">
+                    <h2>stock-stalker</h2>
+                    <p>CLI tool to check your favorite stocks</p>
+                </div>
+            </div>
+            </a>
+
+        </article>
     </main>
     <footer>
         <a href="https://github.com/vvalentinedev/landing-page" target="_blank">Source code</a>
