@@ -101,10 +101,11 @@ footer a {
     border-radius: 10px;
     background-color: rgba(201, 201, 201, 0.5);
     height: 20vh;
-    min-height: 200px;
-    width: 20vw;
-    min-width: 460px;
+    /*min-height: 200px;*/
+    width: 33vw;
+    min-width: 240px;
     overflow: hidden;   
+    font-size: 2vh;
 }
 
 .projectCard img {
@@ -130,7 +131,7 @@ footer a {
 
 .cardInfo p {
     margin-top: 0;
-    font-size: 16px;
+    font-size: 2vh;
 }
 
 .cardInfo ::-webkit-scrollbar {
