@@ -22,19 +22,19 @@
         2. Add footer to page's source code
     -->
     <header>
-        <div style="display:flex; justify-content: flex-end; padding-right: 1%; align-items: center;">
-            <ul style="display: flex; list-style-type: none;"> 
-                <li style="padding-right: 20px;">
-                    <p style="margin-top: 12px;">Contact me!</p>
+        <div class="header-inner">
+            <ul class="contact-list"> 
+                <li class="contact-label">
+                    <p>Contact me!</p>
                 </li>
                 <li>
-                    <a href="mailto:everardo.business@proton.me" target="_blank"><img src="./assets/arroba.png"></a>
+                    <a href="mailto:everardo.business@proton.me" target="_blank"><img src="./assets/arroba.png" alt="Email" width="40" height="40" loading="lazy" decoding="async"></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/jose-everardo-corrales-zazueta-061896254/" target="_blank"><img src="./assets/InBug-White.png"></a>
+                    <a href="https://www.linkedin.com/in/jose-everardo-corrales-zazueta-061896254/" target="_blank"><img src="./assets/InBug-White.png" alt="LinkedIn" width="40" height="40" loading="lazy" decoding="async"></a>
                 </li>
                 <li>
-                    <a href="https://github.com/vvalentinedev" target="_blank"><img src="./assets/Octicons-mark-github.svg"></a>
+                    <a href="https://github.com/vvalentinedev" target="_blank"><img src="./assets/Octicons-mark-github.svg" alt="GitHub" width="40" height="40" loading="lazy" decoding="async"></a>
                 </li>
             </ul>
         </div>
@@ -49,7 +49,7 @@
             <p>
                 I love computers and software in general. What I like the most about Software Engineering as a field is the possibility of working on challenging problems, as well as collaborating 
                 with very skilled Engineers that share my interest and passion! On my free time I enjoy videogames and music. 
-            <p style="margin-top: 1%;">
+            <p class="contact-note">
                 For any hiring or collaboration related communications you can contact me via e-mail (link above).
             </p>
         </article>
@@ -57,21 +57,23 @@
             <h1>A song for you</h1>
             <div id="spotifyPlayer"></div>
             <script src="song-picker.js"></script>
-            <a href="https://open.spotify.com/playlist/5syhrCXsytNOl7WWBlbvh2" target="_blank" style="font-size: 15px;">Check the full playlist</a>
+            <a href="https://open.spotify.com/playlist/5syhrCXsytNOl7WWBlbvh2" target="_blank" class="playlist-link">Check the full playlist</a>
         </article>
         <!-- Temp margin fix so that footer isnt too close to Current Projects section -->
-        <article style="margin-bottom: 5%;">
-            <h1>Current Projects</h1>
+        <article class="projects-section">
+            <h1>What I'm working on currently</h1>
 
-            <a href="https://github.com/vvalentinedev/stock-stalker" target="_blank" style="color: inherit;">
+            <div class="projects-grid">
+            <a href="https://github.com/vvalentinedev/stock-stalker" target="_blank" class="project-link">
                 <div class="projectCard">
-                <img src="assets/stocks.jpg">
+                <img src="assets/stocks.jpg" alt="stock-stalker project" loading="lazy" decoding="async">
                 <div class="cardInfo">
                     <h2>stock-stalker</h2>
                     <p>CLI tool to check your favorite stocks</p>
                 </div>
             </div>
             </a>
+            </div>
 
         </article>
     </main>

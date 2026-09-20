@@ -37,6 +37,8 @@ function getRandomTrack() {
 trackID = getRandomTrack();
 
 const iframe = document.createElement("iframe");
+iframe.id = "spotifyIframe";
+iframe.title = "Random song from my Spotify playlist";
 iframe.src = `https://open.spotify.com/embed/track/${trackID}`;
 iframe.height = "152";
 iframe.width = "100%";
