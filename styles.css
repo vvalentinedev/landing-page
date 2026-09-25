@@ -43,6 +43,7 @@ header {
     justify-content: flex-end;
     padding-right: 1%;
     align-items: center;
+    min-height: 56px;
 }
 
 .contact-list {
@@ -58,8 +59,18 @@ header {
 }
 
 .contact-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     list-style-type: none;
+}
+
+.contact-list li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
 }
 
 .contact-list li::marker {
