@@ -1,6 +1,7 @@
 const SONGS_URL = './songs.json';
 
 const FALLBACK_SONGS = [
+    { id: "6rv4gfOtrlYFrcu03gZkUW", title: "I Follow You", artist: "Melody's Echo Chamber" },
     { id: "2mWfVxEo4xZYDaz0v7hYrN", title: "Juna", artist: "Clairo"},
     { id: '2LD2gT7gwAurzdQDQtILds', title: 'Veridis Quo', artist: 'Daft Punk' },
     { id: '28Ymf40EoJ6776juQZNPoY', title: 'All They Wanted', artist: 'Panchiko' },
