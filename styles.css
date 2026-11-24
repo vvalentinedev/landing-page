@@ -23,6 +23,10 @@ main {
     font-size: 1em;
 }
 
+.hero {
+    margin-bottom: 1rem;
+}
+
 .layout {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
@@ -251,9 +255,22 @@ footer a {
     font-weight: 400;
 }
 
+.layout-side {
+    font-size: 15px;
+}
+
+.layout-side h1 {
+    font-size: 1.5rem;
+}
+
+.layout-side .playlist-link {
+    font-size: 12px;
+}
+
 .layout-side #spotifyPlayer {
     width: 100%;
     min-width: 0;
+    margin-top: 10px;
 }
 
 .layout-side .projects-grid {
@@ -269,13 +286,27 @@ footer a {
     height: auto;
     min-width: 0;
     flex-direction: column;
+    font-size: 0.9rem;
 }
 
 .layout-side .projectCard img {
     width: 100%;
-    height: 110px;
+    height: 90px;
     min-height: 0;
     border-radius: 10px 10px 0 0;
+}
+
+.layout-side .cardInfo {
+    padding: 0.6rem 0.8rem;
+}
+
+.layout-side .cardInfo h2 {
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.layout-side .cardInfo p {
+    font-size: 0.8rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
