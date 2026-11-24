@@ -21,7 +21,7 @@
         1. Complete active project cards and add link to each repo
         2. Add footer to page's source code
     -->
-    <header>
+    <header style="color:whitesmoke">
         <div class="header-inner">
             <ul class="contact-list"> 
                 <li class="contact-label">
@@ -40,49 +40,57 @@
         </div>
     </header>
     <main>
-        <article>
-            <h1>@vvalentinedev</h1>
-            <p>Jose Corrales, Software Engineer</p>
-        </article>
-        <article>
-            <h1>About me!</h1>
-            <p>
-                I love computers and software in general. What I like the most about Software Engineering as a field is the possibility of working on challenging problems, as well as collaborating 
-                with very skilled Engineers that share my interest and passion! On my free time I enjoy videogames and music.
-            </p> 
-            <p class="contact-note">
-                On the era of AI and Agentic Coding, I'm currently focused on discovering the potential of these revolutionary tools to their full extent!
-            </p>
-            <p class="contact-note">
-                For any hiring or collaboration related communications you can contact me via e-mail (link above).
-            </p>
-        </article>
-        <article>
-            <h1>A song for you</h1>
-            <div id="spotifyPlayer"></div>
-            <script src="song-picker.js"></script>
-            <a href="https://open.spotify.com/playlist/5syhrCXsytNOl7WWBlbvh2" target="_blank" class="playlist-link">Check the full playlist</a>
-        </article>
-        <!-- Temp margin fix so that footer isnt too close to Current Projects section -->
-        <article class="projects-section">
-            <h1>What I'm working on currently</h1>
-
-            <div class="projects-grid">
-            <a href="https://github.com/vvalentinedev/stock-stalker" target="_blank" class="project-link">
-                <div class="projectCard">
-                <img src="assets/stocks.jpg" alt="stock-stalker project" loading="lazy" decoding="async">
-                <div class="cardInfo">
-                    <h2>stock-stalker</h2>
-                    <p>CLI tool to check your favorite stocks</p>
-                </div>
+        <div class="layout">
+            <div class="layout-main">
+                <article>
+                    <h1>@vvalentinedev</h1>
+                    <p>Jose Corrales, Software Engineer</p>
+                </article>
+                <article>
+                    <h1>About me!</h1>
+                    <p>
+                        I love computers and software in general. What I like the most about Software Engineering as a field is the possibility of working on challenging problems, as well as collaborating 
+                        with very skilled Engineers that share my interest and passion! On my free time I enjoy videogames and music.
+                    </p> 
+                    <p class="contact-note">
+                        On the era of AI and Agentic Coding, I'm currently focused on discovering the potential of these revolutionary tools to their full extent!
+                    </p>
+                    <p class="contact-note">
+                        For any hiring or collaboration related communications you can contact me via e-mail (link above).
+                    </p>
+                </article>
             </div>
-            </a>
-            </div>
+            <div class="layout-side">
+                <article>
+                    <h1>A song for you</h1>
+                    <div id="spotifyPlayer"></div>
+                    <script src="song-picker.js"></script>
+                    <a href="https://open.spotify.com/playlist/5syhrCXsytNOl7WWBlbvh2" target="_blank" class="playlist-link">Check the full playlist</a>
+                </article>
+                <!-- Temp margin fix so that footer isnt too close to Current Projects section -->
+                <article class="projects-section">
+                    <h1>What I'm working on currently</h1>
 
-        </article>
+                    <div class="projects-grid">
+                    <a href="https://github.com/vvalentinedev/stock-stalker" target="_blank" class="project-link">
+                        <div class="projectCard">
+                        <img src="assets/stocks.jpg" alt="stock-stalker project" loading="lazy" decoding="async">
+                        <div class="cardInfo">
+                            <h2>stock-stalker</h2>
+                            <p>CLI tool to check your favorite stocks</p>
+                        </div>
+                    </div>
+                    </a>
+                    </div>
+
+                </article>
+            </div>
+        </div>
     </main>
+    <!--
     <footer>
         <a href="https://github.com/vvalentinedev/landing-page" target="_blank">Source code</a>
     </footer>
+    -->
 </body>
 </html>
