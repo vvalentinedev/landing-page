@@ -20,7 +20,7 @@ body {
 
 main {
     margin: 0% 2% 0% 5%;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .hero {
@@ -320,7 +320,7 @@ footer a {
     }
 }
 
-@media (max-width: 768px) {
+@media (width <= 52em) {
     body {
         color: black;
     }
